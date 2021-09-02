@@ -1846,6 +1846,7 @@ padding: 100px 0px 150px 0px;
     width: 100%;
     height: 1500px;
     background-position: center;
+    filter: brightness(1.2);
   }
   .menuul, li, ul{
     display: none;
@@ -1872,7 +1873,7 @@ padding: 100px 0px 150px 0px;
   .btn{
     margin-top: 5px;
     padding: 0.5rem 0.8rem 0.3rem 0.8rem !important;
-        color: #363636;
+        background-color: #363636 !important;
   }
   body{
 
@@ -1887,11 +1888,12 @@ padding: 100px 0px 150px 0px;
     font-size: 100px;
   }
   .header .p1{
-    font-size: 3rem;
-    margin-top: 10px;
+    font-size: 3.4rem;
+    margin-top: 15px;
   }
   .header .p2{
     font-size: 2rem;
+    margin-top:-30px!important;
   }
   .sticky{
     height: 200px !important;
@@ -1902,11 +1904,12 @@ padding: 100px 0px 150px 0px;
     font-size: 100px;
   }
   .sticky .p1{
-    font-size: 3rem;
+    font-size: 3.4rem;
     margin-top: 30px;
   }
   .sticky .p2{
     font-size: 2rem;
+    margin-top:-30px!important;
   }
   .sticky .btn{
     margin-top:30px;
@@ -1931,9 +1934,10 @@ padding: 100px 0px 150px 0px;
   }
   .tresc hr{
     height: 30px !important;
+    width: 70%;
   }
   .tresc{
-    height: 2500px;
+    height: 3150px;
   }
 
   .oferta p{
@@ -1954,14 +1958,16 @@ padding: 100px 0px 150px 0px;
     font-size: 3rem !important;
     padding: 30px 80px !important;
     border-radius: 100px !important;
+    background-color:    #363636 !important;
+    color: white;
   }
   .ofirmie p {
-    font-size: 2rem !important;
+    font-size: 3rem !important;
   }
 
   .ofirmie{
     width: 100%;
-    margin-top: 100px !important;
+    margin-top: 200px !important;
   }
   .dropdown{
     position: static !important;
@@ -2010,7 +2016,7 @@ padding: 100px 0px 150px 0px;
     margin-left: 0px !important;
   }
   .wycena{
-    height: 2550px !important;
+    height: 2700px !important;
     margin-top:00px !important
   }
 
@@ -2023,10 +2029,17 @@ padding: 100px 0px 150px 0px;
   }
   .img2{
     left:80% !important;
-    top: 4550px;
+    top: 5200px;
   }
   .img1{
     display: none;
+  }
+  .dropdown-item{
+    font-size: 60px;
+    padding: 30px 50px;
+    background-color: #363636;
+    color: white;
+    border-top: 2px white solid;
   }
 
   .formularz i{
@@ -2054,7 +2067,7 @@ padding: 100px 0px 150px 0px;
   .formularz{
     margin-top: 200px !important;
     width: 80% !important;
-    height: 1650px;
+    height: 1800px;
   }
   .form{
 
@@ -2075,11 +2088,11 @@ padding: 100px 0px 150px 0px;
   }
   .tlo p{
     font-size: 4rem !important;
-    margin-top: 200px;
+    margin-top: 100px;
 
   }
   .tlo,.dos1,.dos2{
-    height: 500px;
+    height: 300px;
     background-position: center;
   }
   .zdj1,.zdj2,.zdj3,.zdj4{
@@ -2130,9 +2143,12 @@ padding: 100px 0px 150px 0px;
   }
   .formularz p{
     font-size: 40px;
+    padding: 20px 0px;
   }
   .realizacje h1{
     font-size: 120px;
+    margin-bottom: 30px;
+    font-weight: bold;
   }
   .rel1,.rel2,.rel3,.rel4,.rel5,.rel6,.rel7,.rel8,.rel9,.rel10,.rel11,.rel12{
     width: 100% !important;
@@ -2326,6 +2342,35 @@ padding: 100px 0px 150px 0px;
 
       margin-left:0px !important;
 
+    }
+    .realizacjeglowna{
+      height: 1000px;
+      margin-top: 500px;
+    }
+    .footerrealizacje{
+      position:fixed !important;
+      bottom: 0 !important;
+      width: 100%;
+    }
+    .realizacjeglowna .r1{
+      font-size: 150px;
+    }
+    .realizacjeglowna .r2{
+      font-size: 150px;
+    }
+    .realizacjeglowna .r3{
+      font-size: 150px !important;
+    }
+    .realizacjeglowna .r1:hover{
+      color: black;
+    }
+    .realizacjeglowna .r2:hover{
+      color: black;    }
+    .realizacjeglowna .r3:hover{
+      color: black;    }
+    .realizacjeglowna h1{
+      font-size: 180px;
+      margin-top: -52px;
     }
 }
 @media all and (min-width:480px) and (max-width:767px){
