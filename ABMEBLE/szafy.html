@@ -2,6 +2,8 @@
 <html lang="pl" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <script src="lightbox2-2.11.3\dist\js\lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="lightbox2-2.11.3\dist\css\lightbox.min.css">
     <link rel="stylesheet" href="css.css">
     <meta name="description" content="<b>ABMEBLE</b> ARTUR BISZTYGA. MISZEWO 3 80-297 BANINO">
     <title>Szafy - ABMEBLE</title>
@@ -20,7 +22,7 @@ function start(){
   var tresc_diva="";
   var numer = 1;
   for (numer = 1; numer < 50; numer++) {
-    tresc_diva = tresc_diva + '<div id="zdjeciadiv" class="zdjeciadiv" onclick="zdjecie()""><img onclick="zdjecie()" id="zdjkuchnia" class="zdjkuchnia" src="szafy/'+numer+'.jpg"></div>';
+    tresc_diva = tresc_diva + '<a href="szafy/'+numer+'.jpg"" id="zdjeciadiv" data-lightbox="mygallery" class="zdjeciadiv" onclick="zdjecie()""><img id="zdjkuchnia" class="zdjkuchnia" src="szafy/'+numer+'.jpg"></a>';
 
   }
   document.getElementById('zdjecia').innerHTML=tresc_diva;

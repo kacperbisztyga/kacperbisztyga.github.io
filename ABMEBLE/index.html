@@ -2,29 +2,57 @@
 <html lang="pl" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    <script src="lightbox2-2.11.3\dist\js\lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="lightbox2-2.11.3\dist\css\lightbox.min.css">
     <link rel="stylesheet" href="css.css">
     <meta name="description" content="<b>ABMEBLE</b> ARTUR BISZTYGA. MISZEWO 3 80-297 BANINO">
     <title>Meble Na Wymiar - Trójmiasto</title>
 <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/0b0e0785d6.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap" rel="stylesheet">
 <script src="bower_components/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
-<script>
-  window.sr = ScrollReveal();
-  ScrollReveal().reveal('.zdj1' {delay:500});
+<script type="text/javascript">
+  function wycena(){
+
+    let info = document.getElementById('informacja');
+
+    if (info.style.display == "block"){
+      info.style.display = "none";
+    } else {
+      info.style.display = "block";
+    }
+
+  }
+
+  function wycenaok(){
+
+    let informacja = document.getElementById("informacja");
+
+    informacja.style.display = "none";
+
+}
+
 </script>
+
+
+
   </head>
   <body>
-    <div class="conainer1">
+    <div id="sec">
 
 
-    <div class="container">
+
       <div class="top">
 
         <div class="header">
+          <div class="container menu2">
           <div class="fb">
             <a target="_blank" href="https://www.facebook.com/AbmebleTrojmiasto"><i class="fab fa-facebook-square" size=10px></i></a>
 
@@ -33,17 +61,30 @@
             <p class="p1" >ABMEBLE</p>
             <p class="p2" >ARTUR BISZTYGA</p>
           </div></a>
+          <div class="dropdown">
+             <a class="btn btn-secondary " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-bars"></i>
+            </a>
+
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
 
           <ul>
-            <li class="glowna"><a class="glowna"href="index.html">STRONA GŁÓWNA</a></li>
-            <li><a href="kontakt.html">KONTAKT</a></li>
-            <li><a href="onas.html">O NAS</a></li>
-            <li><a href="realizacje.html">REALIZACJE</a></li>
+            <li class="glowna"><a class="glowna p3" href="index.html">STRONA GŁÓWNA</a></li>
+            <li><a class="p3" href="kontakt.html">KONTAKT</a></li>
+            <li><a class="p3" href="onas.html">O NAS</a></li>
+            <li><a class="p3" href="realizacje.html">REALIZACJE</a></li>
           </ul>
           <div class="clear">
 
           </div>
-        </div>
+          </div>
+
+
 
         <div class="rest">
           <div class="srodek">
@@ -53,7 +94,7 @@
             <a class="sproferte" href="realizacje.html">SPRAWDŹ OFERTĘ</a>
           </div>
         </div>
-      </div>
+
     </div>
     </div>
 
@@ -76,13 +117,24 @@
           <p class="p1">ABMEBLE</p>
           <p class="p2">ARTUR BISZTYGA</p>
         </div></a>
+        <div class="dropdown">
+           <a class="btn btn-secondary " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+          </a>
+
+        <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
 
 
-        <ul>
-          <li class="glowna"><a class="glowna"href="index.html">STRONA GŁÓWNA</a></li>
-          <li><a href="kontakt.html">KONTAKT</a></li>
-          <li><a href="onas.html">O NAS</a></li>
-          <li><a href="realizacje.html">REALIZACJE</a></li>
+        <ul class="menuul">
+          <li class="glowna"><a class="p3" class="glowna"href="index.html">STRONA GŁÓWNA</a></li>
+          <li><a class="p3" href="kontakt.html">KONTAKT</a></li>
+          <li><a class="p3" href="onas.html">O NAS</a></li>
+          <li><a class="p3" href="realizacje.html">REALIZACJE</a></li>
         </ul>
         <div class="clear">
   </div>
@@ -95,7 +147,7 @@
 
     <div class="tresc">
       <h1>O firmie</h1>
-      <hr class="hr1">
+      <hr id="hr1">
       <div class="ofirmie">
         <p>Zakład zajmuje się produkcją mebli na wymiar.</p>
         <p>Jesteśmy firmą samowystarczalną, posiadamy własną stolarnię z maszynami do produkcji. Cały proces produkcji począwszy od rozkroju, aż do wyrobu finalnego odbywa się w naszym zakładzie.</p>
@@ -105,16 +157,16 @@
 
 
       <div class="zdjecia1">
-        <div class="zdj1">
+        <div id="zdj1">
 
         </div>
-        <div class="zdj2">
+        <div id="zdj2">
 
         </div>
-        <div class="zdj3">
+        <div id="zdj3">
 
         </div>
-        <div class="zdj4">
+        <div id="zdj4">
 
         </div>
 
@@ -122,7 +174,7 @@
         </div>
         <div class="oferta">
           <h1>Oferta</h1>
-        <hr class="hr2">
+        <hr id="hr2">
           <p>Nasza firma oferuje Państwu szeroką gamę mebli na wymiar. </p>
           <a class="sprawdz"href="realizacje.html">SPRAWDŹ!</a>
           <div class="clear">
@@ -135,7 +187,7 @@
         </div>
 </div>
 </div>
-<div class="container1">
+
 
 
         <div class="wycena">
@@ -146,10 +198,24 @@
 
 
           <div class="wycena1">
-            <div class="container">
+            <div class="container wycenacontainer">
               <h2 style="font-size:50px;">PRZYGOTUJ PROJEKT</h2>
               <h1 style="font-size:80px;">WYCENA<BR>ONLINE</h1>
-              <h3 style="font-size:20px;">KUCHNI, SZAFY, UMEBLOWANIA</h3>
+              <h3 style="margin-bottom: 50px;font-size:20px;">KUCHNI, SZAFY, UMEBLOWANIA</h3>
+              <a class="awycena" onclick="wycena()"  style="">Kliknij przed wysłaniem!</a>
+            </div>
+
+            <div id="informacja" class="informacja" style="top:2300px" >
+              <p class="h1wycena">WYCENA</p>
+              <p>Wstępna wycena wykonana po analizie materiału przesłanego przez klienta (np. opis, szkic, plan, projekt, zdjęcia itp.)</p>
+              <p style="margin-bottom:20px;">Do wykonania orientacyjnej wyceny mailowej niezbędne jest podanie:<br><br>
+
+              - przybliżonych wymiarów <br>
+              - ilość i rodzaje szafek <br>
+              - wysokość zabudowy <br>
+              - rodzaj frontów: płyta meblowa(laminat), folia mdf, lakier mat lub połysk <br>
+              - rodzaj okuć (np. cichy domyk, tradycyjne szuflady, cargo itp.)</p>
+              <a id="ok" style="padding:5px 30px;border:1px solid black;border-radius:30px;cursor:pointer" onclick="wycenaok()">OK</a>
             </div>
 
           </div>
@@ -183,13 +249,10 @@
           <div class="clear3">
             </div>
             </div>
-            </div>
+
 <!-- cos sie spierdolilo ale dziala tutaj wiec reszte robimy tutaj -->
 <div class="container">
           <div class="loga">
-
-
-
               <a target="_blank" href="https://web.hettich.com/pl-pl/strona-glowna"><div class="log1 log"></div></a>
               <a target="_blank" href="https://gamet.eu/kategoria/uchwyty-meblowe/"><div class="log2 log"></div></a>
               <a target="_blank" href="https://www.laguna.pl/"><div class="log3 log"></div></a>
@@ -209,7 +272,8 @@
               <div class="l8 l"></div>
           </div>
           </div>
-          <div class="container1">
+
+          <div style="width:100%" class="container1">
 
 
 
@@ -246,29 +310,63 @@
             </div>
              <div class="container">
 
-               <div class="realizacjezdj">
 
-                 <div class="sticky1">
 
-                 </div>
+                <div class="realizacjezdj">
 
-                <div class="rel1"></div>
-                <div class="rel2"></div>
-                <div class="rel3"></div>
-                <div class="rel4"></div>
-                <div class="rel5"></div>
-                <div class="rel6"></div>
-                <div class="rel7"></div>
-                <div class="rel8"></div>
-                <div class="rel9"></div>
-                <div class="rel10"></div>
-                <div class="rel11"></div>
-                <div class="rel12"></div>
-                <div class="rel13"></div>
-                <div class="clear3">  </div>
+                    <a href="r2.jpg" data-lightbox="mygallery"><div class="rel1"></div></a>
+                    <a href="r2.jpg" data-lightbox="mygallery"><div class="rel2"></div></a>
+                    <a href="r3.jpg" data-lightbox="mygallery"><div class="rel3"></div></a>
+                    <a href="r4.jpg" data-lightbox="mygallery"><div class="rel4"></div></a>
+                    <a href="r5.jpg" data-lightbox="mygallery"><div class="rel5"></div></a>
+                    <a href="r6.jpg" data-lightbox="mygallery"><div class="rel6"></div></a>
+                    <a href="r7.jpg" data-lightbox="mygallery"><div class="rel7"></div></a>
+                    <a href="r8.jpg" data-lightbox="mygallery"><div class="rel8"></div></a>
+                    <a href="r9.jpg" data-lightbox="mygallery"><div class="rel9"></div></a>
+                    <a href="r10.jpg" data-lightbox="mygallery"><div class="rel10"></div></a>
+                    <a href="r11.jpg" data-lightbox="mygallery"><div class="rel11"></div></a>
+                    <a href="r12.jpg" data-lightbox="mygallery"><div class="rel12"></div></a>
+                    <a href="r13.jpg" data-lightbox="mygallery"><div class="rel13"></div></a>
 
+
+                  <!-- <a href="r3.jpg" data-lightbox="mygallery"><img src="r3.jpg" width="300px" alt=""></a>
+                  <a href="r4.jpg" data-lightbox="mygallery"><img src="r4.jpg" width="300px" alt=""></a>
+                  <a href="r5.jpg" data-lightbox="mygallery"><img src="r5.jpg" width="300px" alt=""></a>
+                  <a href="r6.jpg" data-lightbox="mygallery"><img src="r6.jpg" width="300px" alt=""></a>
+                  <a href="r7.jpg" data-lightbox="mygallery"><img src="r7.jpg" width="300px" alt=""></a> -->
 
                 </div>
+
+                   <!-- <img width="200px" src="r2.jpg">
+
+                   <img width="200px" src="r3.jpg">
+
+                   <img width="200px" src="r4.jpg">
+
+                   <img width="200px" src="r5.jpg"> -->
+
+
+
+
+
+                <!-- <a href="r2.jpg" class="hover-shadow" onclick="openModal();currentSlide(1)"><div class="rel1"></div></a>
+                <a href="r3.jpg"><div class="gallery-comment-a rel2"></div></a>
+                <a href="r4.jpg"><div class="gallery-comment-a rel3"></div></a>
+                <a href="r5.jpg"><div class="gallery-comment-a rel4"></div></a>
+                <a href="r6.jpg"><div class="gallery-comment-a rel5"></div></a>
+                <a href="r7.jpg"><div class="gallery-comment-a rel6"></div></a>
+                <a href="r8.jpg"><div class="gallery-comment-a rel7"></div></a>
+                <a href="r9.jpg"><div class="gallery-comment-a rel8"></div></a>
+                <a href="r10.jpg"><div class="gallery-comment-a rel9"></div></a>
+                <a href="r11.jpg"><div class="gallery-comment-a rel10"></div></a>
+                <a href="r12.jpg"><div class="gallery-comment-a rel11"></div></a>
+                <a href="r13.jpg"><div class="gallery-comment-a rel12"></div></a>
+                <a href="r14.jpg"><div class="gallery-comment-a rel13"></div></a> -->
+
+
+
+
+
                 </div>
                 <div class="clear3">  </div>
                 <div class="container areal">
@@ -278,7 +376,7 @@
 
                 </div>
 
-                <div class="container1">
+                <div style="width:100%" class="container1">
                   <div class="footer">
                     <div class="container">
                       <div class="s1">
@@ -321,11 +419,53 @@
                     </div>
                   </div>
                 </div>
+</div>
 
 
 
+<script src="jquery-1.11.3.min.js"></script>
+<script>
+window.onscroll = function() {myFunction()};
+
+  function myFunction(){
+    if (document.documentElement.scrollTop > 1100) {
+      document.getElementById("zdj1").className = "zdj1";
+      document.getElementById("zdj2").className = "zdj2";
 
 
+    } else {
+      document.getElementById("zdj1").className = "";
+      document.getElementById("zdj2").className = "";
+      document.getElementById("zdj3").className = "";
+      document.getElementById("zdj4").className = "";
+
+    }
+
+
+    if (document.documentElement.scrollTop > 1300) {
+      document.getElementById("zdj3").className = "zdj3";
+      document.getElementById("zdj4").className = "zdj4";
+    } else {
+
+      document.getElementById("zdj3").className = "";
+      document.getElementById("zdj4").className = "";
+    }
+
+    if (document.documentElement.scrollTop > 350) {
+      document.getElementById("hr1").className = "hr1";
+    } else {
+      document.getElementById("hr1").className = "";
+    }
+
+    if (document.documentElement.scrollTop > 1000) {
+      document.getElementById("hr2").className = "hr2";
+    } else {
+      document.getElementById("hr2").className = "";
+    }
+}
+
+
+</script>
 
   </body>
 </html>
