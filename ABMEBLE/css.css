@@ -1186,7 +1186,7 @@ transform: scale(1.2);
   transition: 0.5s;
 }
  .zdjkuchnia:hover{
-  transform: scale(1.5);
+  transform: scale(1.1);
   transition-delay: 0.4s;
   cursor: pointer;
 }
@@ -1617,7 +1617,7 @@ padding: 100px 0px 150px 0px;
     margin-top:100px !important;
   }
   body{
-    /* background-color: green; */
+    background-color: green;
 
   }
 .p3{
@@ -1876,6 +1876,7 @@ padding: 100px 0px 150px 0px;
         background-color: #363636 !important;
   }
   body{
+    background-color: blue !important;
 
   }
   .fa-bars{
@@ -1913,8 +1914,12 @@ padding: 100px 0px 150px 0px;
   }
   .sticky .btn{
     margin-top:30px;
-
+}
+  a:hover{
+    color:black !important;
+    background-color: none !important;
   }
+
   .sticky .dropdown{
     margin-top: 34px;
   }
@@ -1950,6 +1955,10 @@ padding: 100px 0px 150px 0px;
     font-size: 3rem !important;
     padding: 30px 50px !important;
     border-radius: 100px !important;
+
+  }
+  .oferta .sprawdz:hover{
+    color: white !important;
 
   }
 
@@ -2372,6 +2381,133 @@ padding: 100px 0px 150px 0px;
       font-size: 180px;
       margin-top: -52px;
     }
+    .kuchnie{
+      padding-top:200px;
+    }
+    .zdjkuchnia{
+      width: 45% !important;
+      height: 420px !important;
+      float: none !important;
+    }
+    .stickyonas{
+      position: sticky!important;
+      top: 0 !important;
+      z-index: 20 !important;
+
+    }
+    .containeronas{
+      z-index: 15!important;
+      top: -1300px !important;
+      text-align: center;
+      bottom: -400px;
+      margin-bottom: -1200px;
+    }
+    .imgonas{
+      filter: brightness(1) !important;
+    }
+
+    .onassrodek h1{
+      font-size: 8.7rem;
+    }
+    .onassrodek h2{
+      font-size: 5rem;
+      margin-top: -40px;
+    }
+    .onassrodek p{
+      font-size: 3rem;
+    }
+    .containeronas h3{
+      font-size: 48px;
+    }
+    .zdjonas{
+      display: inline-block;
+      float: none;
+      margin: 50px 0px 0px 0px;
+      width: 100%;
+      height: 500px;
+      border-radius: 50px;
+    }
+    .containeronas li{
+      display: block;
+      font-size:40px;
+      line-height: 50px;
+      list-style-type: circle;
+    }
+    .containeronas ol{
+      list-style-type: circle;
+    }
+    .onasp{
+      font-size: 48px;
+      width: 100%;
+      margin-top: 100px;
+    }
+    .zdjonas1{
+      margin-top: 200px;
+    }
+    .mapouter,.gmap_canvas,.gmap_iframe{
+      height: 500px !important;
+      margin-top: 00px;
+    }
+    .kontakt1{
+      float: none;
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+    }
+    .kontakt2{
+      float: none;
+        display: inline-block;
+      width: 100%;
+      text-align: center;
+
+    }
+    .przyciskkontakt{
+      margin-left: 0;
+    }
+    .kontakt1 h1{
+      font-size: 6rem !important;
+    }
+    .kontakt1 p{
+      font-size: 3rem !important;
+      line-height: 40px;
+    }
+    .kontakt2 h1{
+      font-size: 6rem !important;
+    }
+    .kontakt2 label{
+      font-size: 3rem;
+      margin: 50px 0px;
+    }
+    .kontakt2 input{
+      height: 100px !important;
+    }
+    .kontakt2 textarea{
+      height: 200px !important;
+    }
+    .kontakt2 .przyciskkontakt{
+      margin-top: 50px;
+      font-size: 50px;
+      padding: 40px 60px;
+      border-radius: 100px;
+    }
+    .imgkontakt{
+      top:3350px !important;
+    }
+    .dropdown-item:hover{
+      background-color: #363636 !important;
+      color:white !important;
+
+    }
+
+
+}
+@media (min-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 720px;
+}
+@media (min-width: 1024px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 920px;
 }
 @media all and (min-width:480px) and (max-width:767px){
   .img{
