@@ -869,7 +869,7 @@ font-family: "poppins";
 }
 .rel3{
   height: 220px;
-  background-image: url(r4.jpg);
+  background-image: url(kuchnie/124.jpg);
   background-size: cover;
   transition: 1s;
 
@@ -878,7 +878,7 @@ font-family: "poppins";
 .rel4{
   clear: both;
   height: 270px;
-  background-image: url(r5.jpg);
+  background-image: url(kuchnie/62.jpg);
   background-size: cover;
   transition: 1s;
   vertical-align: top;
@@ -891,7 +891,7 @@ font-family: "poppins";
 }
 .rel6{
 
-  background-image: url(r7.jpg);
+  background-image: url(szafy/12.jpg);
   background-size: cover;
   transition: 1s;
   margin-top:-20px;
@@ -899,7 +899,7 @@ font-family: "poppins";
 .rel7{
   clear: both;
   height: 200px;
-  background-image: url(r8.jpg);
+  background-image: url(kuchnie/4.jpg);
   background-size: cover;
   transition: 1s;
   vertical-align: top;
@@ -1294,7 +1294,7 @@ font-family: "poppins";
 }
 .zdjonas3{
 
-  background-image: url(r10.jpg);
+  background-image: url(kuchnie/62.jpg);
     background-size: cover;
     background-position: center;
 
@@ -1335,7 +1335,7 @@ font-family: "poppins";
 .zdjonas4{
   width: 525px;
   height: 300px;
-  background-image: url(r9.jpg);
+  background-image: url(kuchnie/78.jpg);
   background-size: cover;
   margin: 80px 50px;
   margin-right: 0px;
@@ -1343,7 +1343,7 @@ font-family: "poppins";
 .zdjonas5{
   width: 525px;
   height: 300px;
-  background-image: url(r8.jpg);
+  background-image: url(kuchnie/126.jpg);
     background-size: cover;
     margin: 80px 50px;
 }
@@ -1450,7 +1450,7 @@ padding: 100px 0px 150px 0px;
 
   position: relative;
   z-index: 10;}
-@media all and (min-width:000000px){
+@media all and (min-width:1000000px){
 .img {
 
   position: relative;
@@ -1783,6 +1783,7 @@ padding: 100px 0px 150px 0px;
     .imgonas{
       filter: brightness(1) !important;
       margin-top:-200px !important;
+    
     }
     .onasp{
       height: 100px;
