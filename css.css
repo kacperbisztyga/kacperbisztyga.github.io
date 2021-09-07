@@ -195,9 +195,8 @@ font-family: "poppins";
 }
 .srodek a:hover{
   color: white;
-  background-image: linear-gradient(to right, black 20%, blue 100%);
   transition: 1s;
-
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(17,17,103,1) 50%, rgba(13,13,199,1) 100%)
 }
 .sticky{
   width: 100%;
@@ -618,6 +617,7 @@ font-family: "poppins";
   margin: 13px;
   z-index: -5;
   /* border: 5px solid white; */
+  transition: 0.5s;
 
 
 
@@ -1572,6 +1572,9 @@ padding: 100px 0px 150px 0px;
     width: 400px!important;
 
   }
+  .wycena{
+    margin-top: 250px!important;
+  }
   .zdj1{
     height: 250px !important;
   }
@@ -1650,8 +1653,11 @@ padding: 100px 0px 150px 0px;
     margin: 10px !important;
     margin-left: 0 !important;
   }
+  .containerrealizacj{
+    width: 80% !important;
+  }
   .rel1,.rel2,.rel3,.rel4,.rel5,.rel6,.rel7,.rel8,.rel9,.rel10,.rel11,.rel12{
-    width: 31% !important;
+    width: 31.5% !important;
   }
   .log4,.log8{
     margin-right: 0 !important;
@@ -1678,7 +1684,7 @@ padding: 100px 0px 150px 0px;
     height: 140px !important;
   }
   .realizacjezdj{
-    height: 750px !important;
+    height: 755px !important;
     margin-top:50px!important
   }
   .s1 i{
@@ -1732,7 +1738,7 @@ padding: 100px 0px 150px 0px;
   }
   .realizacjeglowna{
     height: 450px;
-    margin-top: 200px;
+    margin-top: 260px !important;
   }
   .realizacjeglowna h1{
     font-size: 220px;
@@ -1751,10 +1757,8 @@ padding: 100px 0px 150px 0px;
       float: none !important;
       height: 310px !important;
     }
-    .galeriakuchnie{
-      text-align: center;
 
-    }
+
     .inneh1{
       padding-top: 100px!important;
     }
