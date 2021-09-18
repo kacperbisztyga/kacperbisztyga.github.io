@@ -529,6 +529,10 @@ font-family: "poppins";
   margin-left: 2%;
   font-family: "poppins";
 }
+
+
+
+
 .formularz input,.wiadomosc{
   text-decoration: none;
   border: 0px;
@@ -1467,6 +1471,23 @@ padding: 100px 0px 150px 0px;
 
 }
 
+
+.img {
+
+  position: relative;
+  z-index: 10;
+
+  animation: move 50s ease;
+
+  /* Add infinite to loop. */
+
+  -ms-animation: move 1100s ease;
+  -webkit-animation: move 40s ease;
+  -0-animation: move 40s ease;
+  -moz-animation: move 40s ease;
+
+}
+
 @-webkit-keyframes move {
   0% {
     -webkit-transform-origin: bottom left right;
@@ -1622,7 +1643,7 @@ padding: 100px 0px 150px 0px;
     margin-left: -30px !important;
   }
   .informacja{
-    top:2850px!important;
+    top:2700px!important;
   }
   .fa-envelope-open-text{
     padding-left: 18px !important;
@@ -1778,12 +1799,12 @@ padding: 100px 0px 150px 0px;
       text-align: center;
       bottom: -400px;
       margin-bottom: -600px;
-      height: 2200px;
+      height: 2050px;
     }
     .imgonas{
       filter: brightness(1) !important;
       margin-top:-200px !important;
-    
+      background-image: url("tlo.jpg") !important;
     }
     .onasp{
       height: 100px;
@@ -1801,6 +1822,7 @@ padding: 100px 0px 150px 0px;
     }
     .containeronas h3{
       font-size: 48px;
+      margin-top:-50px !important;
     }
     .zdjonas{
       display: inline-block;
@@ -1816,7 +1838,7 @@ padding: 100px 0px 150px 0px;
     .containeronas li{
       display: block;
       font-size:20px;
-      line-height: 15px;
+      line-height: 0px !important;
       list-style-type: circle;
     }
     .containeronas ol{
@@ -1915,6 +1937,7 @@ padding: 100px 0px 150px 0px;
     display: inline-block;
     text-align: center;
     width: 100%;
+    margin-top: -20px !important;
 
   }
   .hr2{
@@ -1977,6 +2000,7 @@ padding: 100px 0px 150px 0px;
   .wycena1{
     float: none !important;
     width: 100% !important;
+    margin-top:100px!important;
   }
   .wycena2{
     float: none !important;
@@ -1990,6 +2014,7 @@ padding: 100px 0px 150px 0px;
     margin-left: 0px !important;
     padding-top: 100px !important;
     margin-bottom: 40px !important;
+    margin-top: -50px !important;
   }
   .wycena1 h1{
     margin-left: 0px !important;
@@ -2008,11 +2033,11 @@ padding: 100px 0px 150px 0px;
   }
   .img3{
     left:7% !important;
-    top: 2500px;
+    top: 2350px;
   }
   .img2{
     left:80% !important;
-    top: 2400px;
+    top: 2200px;
   }
   .img1{
     display: none;
@@ -2180,15 +2205,14 @@ padding: 100px 0px 150px 0px;
     height: 170px !important;
   }
   .realizacjeglowna{
-    height:700px!important;
+    height:600px!important;
     padding-top: 60px !important;
   }
   .zdjecia{
     margin-bottom: 100px !important;
   }
   .footerrealizacje{
-    position:fixed !important;
-    bottom: 0 !important;
+
     width: 100%;
   }
   .realizacjeglowna .r1{
