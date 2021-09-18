@@ -2386,9 +2386,10 @@ padding: 100px 0px 150px 0px;
     margin-top: 30px;
   }
   .btn{
-    margin-top: 5px;
+    margin-top: 28px !important;
     padding: 0.5rem 0.8rem 0.3rem 0.8rem !important;
-        background-color: #363636 !important;
+        background-color: white !important;
+        border-color: white !important;
   }
   body{
     /* background-color: blue !important; */
@@ -2396,7 +2397,7 @@ padding: 100px 0px 150px 0px;
   }
   .fa-bars{
     font-size: 80px;
-    color: white;
+    color: #363636;
 
   }
   .header .fab{
@@ -2543,7 +2544,7 @@ padding: 100px 0px 150px 0px;
     margin-left: 0px !important;
   }
   .wycena{
-    height: 2700px !important;
+    height: 2600px !important;
     margin-top:00px !important
   }
 
@@ -2575,11 +2576,11 @@ padding: 100px 0px 150px 0px;
   }
   .formularz input{
     height: 80px !important;
-    font-size: 30px;
+    font-size: 40px;
   }
   .formularz .wyslij{
     height: 130px !important;
-    margin-top: 100px !important;
+    margin-top: 60px !important;
     font-size: 50px;
     border-radius: 100px;
   }
@@ -2594,7 +2595,7 @@ padding: 100px 0px 150px 0px;
   .formularz{
     margin-top: 200px !important;
     width: 80% !important;
-    height: 1800px;
+    height: 1700px;
   }
   .form{
 
@@ -2652,21 +2653,25 @@ padding: 100px 0px 150px 0px;
   .formularz i{
     margin-left: -30px !important;
     font-size: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
   }
   .fa-envelope-open-text{
     padding-left: 10px !important;
   }
+  .wiadomosc
+  {
+    font-size: 40px;
+  }
 
   .file{
-
+    font-size: 35px !important;
   }
   .formularz h1{
-    padding-top: 40px !important;
+    padding-top: 30px !important;
     font-size: 100px;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-top: 70px;
   }
   .formularz p{
     font-size: 40px;
@@ -2810,7 +2815,7 @@ padding: 100px 0px 150px 0px;
     .s3t .p1{
       font-size: 3.5rem !important;
       margin-left: -90px !important;
-      margin-top: 35px !important;
+      margin-top: 38px !important;
       display: inline-block !important;
     ;
 
@@ -3013,6 +3018,13 @@ padding: 100px 0px 150px 0px;
       font-size: 50px;
       padding: 40px 60px;
       border-radius: 100px;
+
+    }
+
+    .kontakt2 .przyciskkontakt:hover{
+      color: white !important;
+      transition: 1s;
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(17,17,103,1) 50%, rgba(13,13,199,1) 100%)
     }
     .imgkontakt{
       top:3350px !important;
